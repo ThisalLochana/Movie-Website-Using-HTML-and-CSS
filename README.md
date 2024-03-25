@@ -11,12 +11,6 @@ This project is a movie-related website called "MovieFlix" created as part of a 
 
 The project title is "MovieFlix".
 
-## Technical Discussion
-
-In this section, each team member discusses their technical contributions to the project. Below is the contribution of Student 4:
-
-As Student 4, my role involved creating a diagram (sitemap) using Scalable Vector Graphics (SVG), creating a gallery with thumbnail images and descriptions, developing an extra content webpage, and designing the Page Editor’s page.
-
 ## Installation
 
 To view the MovieFlix website locally, follow these steps:
