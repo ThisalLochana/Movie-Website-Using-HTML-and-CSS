@@ -15,7 +15,7 @@ The project title is "MovieFlix".
 
 To view the MovieFlix website locally, follow these steps:
 
-1. Clone the repository to your local machine: https://github.com/username/repository.git
+1. Clone the repository to your local machine: [https://github.com/username/repository.git](https://github.com/ThisalLochana/Movie-Website-Using-HTML-and-CSS.git)
 
 2. Open the project folder.
 
