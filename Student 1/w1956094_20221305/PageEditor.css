@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-transform: capitalize;
+}
+/* Style body part */
+body{
+    background-color: #202020;
+    color: white;
+}
+/* Style Topics */
+.topic{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;Q
+    border: 1px solid black;
+    background: grey;
+}
+.topic h1{
+    margin: 2px;
+    font-size: 40px;
+}
+.nameset{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+    border: 2px solid black;
+    font-size: 20px;
+}
+.nameset .detail{
+    margin: 2px;
+}
+.main{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.main .submain h3{
+    text-align: center;
+    margin-top: 5px;
+    font-size: 30px;
+}
+.main .submain h5{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.main .submain{
+    margin-top: 30px;
+    border: 1px solid white;
+    box-shadow: 2px 3px white;
+    width: 100%;
+    border-left: none;
+    border-right: none;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+.main .submain a{
+    margin-top: 5px;
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    text-shadow: 2px 4px black;
+}
+.main .submain:hover{
+    box-shadow: 4px 4px 5px white;
+}
+.main .submain a:hover{
+    color: red;
+}

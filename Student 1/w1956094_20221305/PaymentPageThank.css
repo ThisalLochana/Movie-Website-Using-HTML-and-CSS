@@ -1,0 +1,97 @@
+*{
+font-family: Poppins;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+outline: none;
+border: none;
+text-transform: capitalize;
+transition: all 0.2s linear;
+}
+/* Style body part */
+body{
+background: black;
+}
+.container {
+box-shadow: 5px 5px 5px white;
+background: gray;
+width: 500px;
+height: 500px;
+margin: auto;
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+}
+/* Style back to home button */
+.message {
+text-align: center;
+margin-top: 23vh;
+margin-left: 5px;
+margin-right: 5px;
+}
+.message h1{
+text-transform: uppercase;
+font-weight: bold;
+text-shadow: 1px 2px white;
+}
+.submit {
+display: flex;
+justify-content: center;
+margin-top: 30px;
+}
+.container .submit .submitbutton{
+text-transform: uppercase;
+font-size: 18px;
+padding: 12px;
+width: 100%;
+cursor: pointer;
+background: black;
+color: white;
+box-shadow: 2px 5px 6px white;
+border-radius: 20px;
+}
+.container .submit .submitbutton:hover{
+box-shadow: 5px 10px 5px white;
+}
+/* Style green correct mark */
+.container h2{
+font-size: 70px;
+color: green;
+border: 2px solid green;
+border-radius: 50%;
+display: inline-flex;
+justify-content: center;
+align-items: center;
+height: 110px;
+width: 110px;
+margin-top: 10px;
+}
+#reference{
+    color: black;
+    text-shadow: 2px 2px 2px white;
+    font-size: 20px;
+    margin-top: 5px;
+}
+/* ------Student Details---------*/
+.infotext{
+    line-height: 30px;
+    letter-spacing:2px;
+    color: aliceblue;
+    font-size: 15px;
+    height: 150px;
+    margin-top: 80vh;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+.infotext a{
+    color: red;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Poppins';
+    font-weight: bolder;
+}
+.infotext a:hover{
+    text-shadow: 2px 2px 2px white;
+}

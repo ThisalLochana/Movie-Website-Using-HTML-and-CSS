@@ -1,0 +1,119 @@
+*{
+    font-family: Poppins;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+    transition: all 0.2s linear;
+}
+/* Style the checkout form */
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    min-height: 100vh;
+    background: linear-gradient(90deg,black 70%,gray 40%);
+    padding-bottom: 70px;
+}
+.container form{
+    padding: 20px;
+    width: 700px;
+    background: linear-gradient(90deg,white 70%,#DFDADA 40%);
+    box-shadow: 0 5px 10px black;
+}
+.container form .row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.container form .row .col{
+    flex: 1 1 250px;
+}
+.container form .row .col .title{
+    font-size: 20px;
+    color: black;
+    font-weight: 900;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+}
+.container form .row .col .inputbox{
+    margin: 15px 0;
+}
+.container form .row .col .inputbox span{
+    margin-bottom: 10px;
+    display: block;
+}
+.container form .inputbox .required::after{
+    content:"*";
+    color: red;
+}
+.container form .row .col .inputbox input{
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 10px 15px;
+    text-transform: none;
+}
+.container form .row .col .inputbox #year,#month{
+    width: 100%;
+    height: 37px;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    text-transform: none;
+}
+.container form .row .col .inputbox input:focus{
+    border: 1px solid black; 
+}
+.container form .row .col .flex{
+    display: flex;
+    gap: 15px; 
+}
+.container form .row .col .flex .inputbox{
+    margin-top: 5px; 
+}
+.container form .row .col .flex .inputbox .image{
+    height: 33px;
+    margin-top: 5px;
+    filter: drop-shadow(0 0 1px #0000);
+}
+.container form .submitbutton{
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+    background: black;
+    color: white;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.container form .submitbutton:hover{
+    background: grey
+}
+input[required] + span::before {
+    content: "* ";
+    color: red;
+  }
+  
+/* Style Student info */
+.infotext{
+    line-height: 30px;
+    letter-spacing:2px;
+    color: black;
+    font-size: 15px;
+    height: 150px;
+    margin-top: 5px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+.infotext a{
+    color: red;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Poppins';
+    font-weight: bolder;
+}
+.infotext a:hover{
+    text-shadow: 2px 2px 2px blue;
+}
+

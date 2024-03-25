@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Buy Products</title>
+        <link rel="icon" href="../w1956094_20221305/Images/MovieLogo.png" type="image/png">
+        <link rel="stylesheet" href="../w1956094_20221305/BuyProducts.css">
+        <link rel="stylesheet" href="../w1956094_20221305/Navigation.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    </head>
+    <body class="body">
+        <div class="topbar">
+            <div class="topbartext">MovieFlix</div>
+            <div class="ICON">
+                <img class="ICONimg" src="../w1956094_20221305/Images/MovieLogo.png" alt="Logo">
+            </div>
+            <div class="navbar">
+              <a href="">Home</a>
+              <a class="active" href="../w1956094_20221305/BuyProducts.html">Shop</a> 
+              <a href="">Comments</a>
+              <a href="">Quiz</a>
+              <a href="">Site Map</a>
+              <a href="">Gallery</a>
+              <a href="">Student Details</a>
+          </div>
+        </div>
+            <section id="welcome">
+                <div class="welcometext">
+                    <h1 class="buyproducts">Our Products</h1>
+                    <p>Hello we warmly welcome you to MovieFlix Action Figure Shop. We have different kinds of Action Figures only for Movie lovers,
+                        We always care about our Product Quality and We can Guarantee you that you will get 100% High-Quality Products from us. Feel
+                        free to discover through our page and find what you want.
+                    </p>
+                </div>
+            </section>
+            <section class="product">
+                <div class="procontainer">   <!--all product container-->
+                    <div class="pro"  id="product1"> <!-- Container for one product -->
+                        <img src="../w1956094_20221305/Images/Batman.jpg" alt="">
+                        <div class="description">
+                            <span>Batman</span>
+                            <h5 id="product1-name">Batman Action <br> Figure</h5>
+                            <h4 id="product1-price">$20.00</h4>
+                                <div class="quantity">
+                                    <label>Quantity :</label>
+                                    <input type="number" id="product1quantity" name="product1-quantity" min="1" max="10" value="1" title="Max : 10">
+                                </div>
+                        </div>
+                            <div class="addtocartbutton">
+                                <button id="button1" class="addbutton">Add To Cart</button>
+                            </div>
+                    </div>
+                    <div class="pro" id="product2">
+                        <img src="../w1956094_20221305/Images/Superman.jpg" alt="">
+                        <div class="description">
+                            <span>Superman</span>
+                            <h5 id="product2-name">Superman Action <br> Figure</h5>
+                            <h4 id="product2-price">$20.00</h4>
+                                <div class="quantity">
+                                    <label>Quantity :</label>
+                                    <input type="number" id="product2quantity" name="product1-quantity" min="1" max="10" value="1" title="Max : 10">
+                                </div>
+                        </div>
+                            <div class="addtocartbutton">
+                                <button  id="button2" class="addbutton">Add To Cart</button>
+                            </div>
+                    </div>
+                    <div class="pro" id="product3">
+                        <img src="../w1956094_20221305/Images/Flashact.jpg" alt="">
+                        <div class="description">
+                            <span>Flash</span>
+                            <h5 id="product3-name">Flash Action<br> Figure</h5>
+                            <h4 id="product3-price">$20.00</h4>
+                                <div class="quantity">
+                                    <label>Quantity :</label>
+                                    <input type="number" id="product3quantity" name="product1-quantity" min="1" max="10" value="1" title="Max : 10">
+                                </div>
+                        </div>
+                            <div class="addtocartbutton">
+                                <button id="button3" class="addbutton">Add To Cart</button>
+                            </div>
+                    </div>
+                    <div class="pro" id="product4">
+                        <img src="../w1956094_20221305/Images/thor.jpg" alt="">
+                        <div class="description">
+                            <span>Thor</span>
+                            <h5 id="product4-name">Thor Action <br> Figure</h5>
+                            <h4 id="product4-price">$20.00</h4>
+                                <div class="quantity">
+                                    <label>Quantity :</label>
+                                    <input type="number" id="product4quantity" name="product1-quantity" min="1" max="10" value="1" title="Max : 10">
+                                </div>
+                        </div>
+                            <div class="addtocartbutton">
+                                <button id="button4" class="addbutton">Add To Cart</button>
+                            </div>
+                    </div>
+                </div>
+            </section>
+            <section class="cart"> <!-- Section for Cart -->
+                <div class="cartcontainer">
+                    <table class="carttable" id="table" border="2"> <!--Table for cart-->
+                        <thead id="tablehead">
+                            <tr id="row1">
+                                <td>Name</td>
+                                <td>Quantity</td>
+                                <td>Price</td>
+                            </tr>
+                        </thead>
+                        <tbody id="tablebody">
+                            <tr id="item1">
+                                <td>Batman Action Figure</td>
+                                <td id="bmquantity">0</td>
+                                <td id="bmprice">$0</td>
+                            </tr>
+                            <tr id="item2">
+                                <td>Superman Action Figure</td>
+                                <td id="smquantity">0</td>
+                                <td id="smprice">$0</td>
+                            </tr>
+                            <tr id="item3">
+                                <td>Flash Action Figure</td>
+                                <td id="flquantity">0</td>
+                                <td id="flprice">$0</td>
+                            </tr>
+                            <tr id="item4">
+                                <td>Thor Action Figure</td>
+                                <td id="thquantity">0</td>
+                                <td id="thprice">$0</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class="subtotal">
+                        <h3>Cart Totals</h3>
+                        <table>
+                            <tr>
+                                <td>Cart Subtotal</td>
+                                <td id="subtotal">$0</td>
+                            </tr>
+                            <tr>
+                                <td>Shipping</td>
+                                <td>Free</td>
+                            </tr>
+                            <tr>
+                                <td><Strong>Total</Strong></td>
+                                <td id="alltotal"><strong>$0</strong></td>
+                            </tr>
+                        </table>
+                        <button class="btn" id="clearcart">Clear Cart</button>
+                        <button class="btn" id="checkbutton" >Proceed To Checkout</button>
+                    </div>
+                </div>
+            </section>
+            <footer class="footer"> <!-- Footer of the page with navigation -->
+                <div class="pagebottom">
+                    <p class="sitename">MovieFlix © 2023</p>
+                    <div class="navfooter">
+                    <a href="">Home</a>
+                    <a href="../w1956094_20221305/BuyProducts.html">Shop</a>
+                    <a href="">Comments</a>
+                    <a href="link4">Quiz</a>
+                    <a href="link5">Site Map</a>
+                    <a href="link6">Gallery</a>
+                    <a href="link6">Student Details</a>
+                    </div>
+                </div>
+                <div class="studentinfo">
+                    <div class="infotext">
+                    K.G.T.D. Gamage<br>
+                    IIT ID: 20221305 <br>
+                    UOW ID: W1956094 <br>
+                    <a href="../w1956094_20221305/PageEditor.html"> Click Here for Page Editor </a>
+                    </div>
+                </div>
+            </footer>
+            <script src="../w1956094_20221305/BuyProducts.js"></script> <!-- link the external JavaScript File -->
+    </body>
+</html>

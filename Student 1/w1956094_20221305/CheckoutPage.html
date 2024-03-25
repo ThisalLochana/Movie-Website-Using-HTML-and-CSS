@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Complete Payment</title>
+        <link rel="icon" href="../w1956094_20221305/Images/MovieLogo.png" type="image/png">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../w1956094_20221305/CheckoutPage.css">
+    </head>
+    <body>
+        <div class="container">
+            <form action="../w1956094_20221305/PaymentPageThank.html"> <!--Form to get user details-->
+                <div class="row">
+                    <div class="col">
+                        <h3 class="title">Billing Address</h3>
+                            <div class="inputbox">
+                            <span class="required">Full Name :</span>
+                            <input type="text" placeholder="Jhon Smith" required id="name">
+                        </div>
+                        <div class="inputbox">
+                            <span class ="required">E-Mail :</span>
+                            <input type="email" placeholder="example@gmail.com" required id="email">
+                        </div>
+                        <div class="inputbox">
+                            <span class ="required">Address :</span>
+                            <input type="text" placeholder="Street-No / Street Name /City" required id="address">
+                        </div>
+                        <div class="inputbox">
+                            <span class ="required">City :</span>
+                            <input type="text" placeholder="Colombo" required id="city">
+                        </div>
+                        <div class="flex">
+                            <div class="inputbox">
+                                <span class ="required">Country :</span>
+                                <input type="text" placeholder="Sri Lanka" required id="country">
+                            </div>
+                            <div class="inputbox">
+                                <span class ="required">Zip Code :</span>
+                                <input type="text" placeholder="123-567" required id="zipcode">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <h3 class="title">Payment</h3>
+                        <div class="inputbox">
+                            <span>Cards Accepted</span>
+                            <img src="../w1956094_20221305/Images/card_img.png" alt="" class="">
+                        </div>
+                            <div class="inputbox">
+                            <span class ="required">Name on Card :</span>
+                            <input type="text" placeholder="Jhon Smith" required id="cardname">
+                        </div>
+                        <div class="inputbox">
+                            <span class ="required">Card Number :</span>
+                            <input type="number" placeholder="0000 1111 2222 3333" required id="cardnumber">
+                        </div>
+                        <div class="inputbox">
+                            <span class ="required">Exp Month :</span>
+                            <select required id="month" name="month">
+                                <option value="January">January</option>
+                                <option value="February">February</option>
+                                <option value="March">March</option>
+                                <option value="April">April</option>
+                                <option value="May">May</option>
+                                <option value="June">June</option>
+                                <option value="July">July</option>
+                                <option value="August">August</option>
+                                <option value="September">September</option>
+                                <option value="October">October</option>
+                                <option value="November">November</option>
+                                <option value="December">December</option>
+                            </select>
+                        </div>
+                        <div class="flex">
+                            <div class="inputbox">
+                                <span class ="required">Exp Year :</span>
+                                <select name="year" id="year">
+                                    <option value="2023">2023</option>
+                                    <option value="2024">2024</option>
+                                    <option value="2025">2025</option>
+                                    <option value="2026">2026</option>
+                                    <option value="2027">2027</option>
+                                    <option value="2028">2028</option>
+                                    <option value="2029">2029</option>
+                                    <option value="2030">2030</option>
+                                </select>
+                            </div>
+                            <div class="inputbox">
+                                <span class ="required">CVV :</span>
+                                <input type="number" placeholder="123" required id="cvv">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a href="../w1956094_20221305/PaymentPageThank.html"><input type="submit" value="Complete Payment" class="submitbutton"></a>
+            </form>
+        </div>
+        <div class="studentinfo">
+            <div class="infotext">
+            K.G.T.D. Gamage<br>
+            IIT ID: 20221305 <br>
+            UOW ID: W1956094 <br>
+            <a href="../w1956094_20221305/PageEditor.html"> Click Here for Page Editor </a>
+            </div>
+        </div>
+        <script>
+            const cardnumber = document.getElementById("cardnumber"); // Show a message if the card number length is not enough//
+            cardnumber.addEventListener('blur', function() {
+                const cardnum = cardnumber.value;
+                if (cardnum.length < 16){
+                    alert("Card Number should be at least 16 characters!");
+                }
+                else{}
+            });
+            const faddress = document.getElementById("address"); // Show a message if the address length is not enough//
+            faddress.addEventListener('blur', function() {
+            const fulladdress = faddress.value;
+            if (fulladdress.length < 10){
+                alert( "Address Should be at least 10 Charactors !");
+            }
+            else{}
+            });
+        </script>  
+    </body>
+</html>

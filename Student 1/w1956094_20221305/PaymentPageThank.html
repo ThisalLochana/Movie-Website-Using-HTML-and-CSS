@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Thank You</title>
+        <link rel="icon" href="../w1956094_20221305/Images/MovieLogo.png" type="image/png">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../w1956094_20221305/PaymentPageThank.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="message">
+                <h1>Thanks For Your Purchace!</h1>
+                <h3 id="reference">Reference</h3>
+                <h2>&#10003;</h2>
+            </div>
+            <div class="submit">
+                <a href="../w1956094_20221305/BuyProducts.html"><button class="submitbutton">Back To Shop</button></a>
+            </div>
+        </div>
+        <div class="studentinfo">
+            <div class="infotext">
+            K.G.T.D. Gamage<br>
+            IIT ID: 20221305 <br>
+            UOW ID: W1956094 <br>
+            <a href="../w1956094_20221305/PageEditor.html"> Click Here for Page Editor </a>
+            </div>
+        </div>
+        <script>
+            let referencenum = Math.floor((Math.random() * 10000) + 1) // Generate a random number to referrence//
+            document.getElementById("reference").innerHTML = "Your Reference Number : "+ referencenum;
+        </script>
+    </body>
+</html>
