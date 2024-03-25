@@ -1,0 +1,191 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #3749a1;
+    color: white;
+}
+
+.topbar{
+    height: 50px;
+    
+    
+    
+}
+.topbartext{
+    margin-left: 10px;
+    margin-top: 8px;
+    color: #e20000;
+    font-weight:bold;
+    font-size: 30px;
+    float: left;
+    font-family: 'Poppins';
+}
+.ICONimg{
+    height: 45px;
+    width: 50px;
+    float: left;
+    
+}
+
+.navbar {
+    overflow:hidden;
+    
+  }
+  
+  
+.navbar a {
+    
+    float: left;
+    margin-left: 25px; 
+    margin-right: 25px;
+    color: aliceblue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    border-bottom: 16px solid transparent;
+    
+}
+  
+.navbar a:hover {
+    border-bottom: 2px solid rgb(253, 0, 0);
+    opacity:0.8; 
+    
+}
+  
+  
+.navbar a.active {
+    
+    border-bottom: 3px double rgb(255, 0, 0);
+}
+
+.topic{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+    border: 1px solid black;
+    background: rgb(119, 51, 167);
+}
+.topic h1{
+    margin: 2px;
+    font-size: 40px;
+}
+.nameset{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+    border: 2px solid black;
+    font-size: 20px;
+}
+.nameset .detail{
+    margin: 2px;
+}
+.bottom{
+    text-decoration: underline;
+    color: rgb(19, 19, 19);
+}
+.main{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.main .submain h3{
+    text-align: center;
+    margin-top: 5px;
+    font-size: 30px;
+}
+.main .submain h5{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.main .submain{
+    margin-top: 30px;
+    border: 1px solid white;
+    box-shadow: 2px 3px white;
+    width: 100%;
+    border-left: none;
+    border-right: none;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+.main .submain a{
+    margin-top: 5px;
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+    text-shadow: 2px 4px black;
+}
+.main .submain:hover{
+    box-shadow: 4px 4px 5px white;
+}
+.main .submain a:hover{
+    color: red;
+}
+
+.pagebottom{
+    height: 150px;
+    border-top: 2px solid red;
+    background-color:rgb(0, 0, 0);
+    
+    
+    
+    
+ }
+ .sitename{
+    color: aliceblue;
+    font-weight: bolder;
+    padding-top: 10px;
+    text-align: center;
+
+    font-size: 17px;
+ }
+
+ .navfooter a{
+    float: left;
+    margin-left: 25px; 
+    margin-right: 25px;
+    color: aliceblue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: 16px solid transparent;
+    transition: opacity 0.4s;
+    
+ }
+ .navfooter a:hover{
+    color: aliceblue;
+    opacity:0.7;  
+ }
+ .studentinfo{
+    height: 180px;
+    background-color:rgb(0, 0, 0);
+    
+ }
+ .infotext{
+    
+    line-height: 40px;
+    letter-spacing:2px;
+    color: aliceblue;
+    font-size: 20px;
+    height: 150px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+ }.infotext a{
+    color: #e90e0e;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Poppins';
+    font-weight: bolder;
+ }.infotext a:hover{
+    opacity: 0.8;
+    
+ }

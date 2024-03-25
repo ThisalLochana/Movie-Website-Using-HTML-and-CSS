@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="Gallery.css">
+    <meta charset="UTF-8">
+    <title>Gallery</title>
+</head>
+<body>
+    <div class="topbar">
+        <div class="topbartext">MovieFlix</div>
+        <div class="ICON">
+            <img class="ICONimg" src="movie-camera.png" alt="icon">
+
+        </div>
+        <div class="navbar">
+            <a href="main.html">Home</a>
+            <a href="link2">Shop</a>
+            <a href="link3">Comments</a>
+            <a href="link4">Quiz</a>
+            <a href="../CW/SVG.html">Site Map</a>
+            <a class="active" href="../CW/Gallery.html">Gallery</a>
+            <a href="link7">Student Details</a>
+        </div>
+    </div>
+
+    <div class="container">
+        <!-- show buttons for change text size -->
+        <div class="buttons"> 
+            <span class="btn active" onclick="document.getElementById('text').style.fontSize='1em'">A</span>
+            <span class="btn " onclick="document.getElementById('text').style.fontSize='1.25em'">A</span>
+            <span class="btn" onclick="document.getElementById('text').style.fontSize='1.75em'">A</span>
+        </div>
+
+        <div class="options">
+            <select id="colorScheme" onchange="changeColorScheme(this)">
+                <option value="default">Default</option>
+                <option value="dark">Dark</option>
+                <option value="light">Light</option>
+                <option value="blue">Blue</option>
+              </select>
+        </div>
+
+        <div class="Content" id="text">
+            <div class="h1">
+                <h1>Movie Of the Year</h1>
+                <br><h2>2013 - 2022</h2>
+            </div>
+
+            <div class="row">
+                <div class="column">
+                    <figure class="caption">
+                        <img src="Everything-everywhere-all-at-once.jpg" alt="Image of Everything Everywhere All at Once" class="img"  onmouseover="showDescription(this)" onclick="showDescription(this)" onmouseout="hideDescription(this)">
+                        <figcaption >2022 <br> Everything Everywhere All at Once </figcaption>
+                        <div class="desc show" id="description"><img src="Everything-everywhere-all-at-once.jpg" alt="Image of Everything Everywhere All at Once" class="img">
+                        <p>Everything Everywhere All at Once is a 2022 American absurdist comedy-drama film written and directed by Daniel Kwan and Daniel Scheinert (the "Daniels"), who also produced it with Anthony and Joe Russo and Jonathan Wang. It follows Evelyn Wang, a Chinese-American immigrant who discovers she must connect with parallel universe versions of herself to prevent a powerful being from destroying the multiverse while being audited by the IRS. Michelle Yeoh plays Evelyn Quan Wang, and the cast also includes Stephanie Hsu, Ke Huy Quan, Jenny Slate, Harry Shum Jr., James Hong, and Jamie Lee Curtis.</p></div>
+                    </figure>
+                    
+                </div>
+
+                <div class="column">
+                    <figure class="caption">
+                        <img src="CODA(2021_film).jpg" alt="Image of CODA (2021 film)" class="img" onmouseover="showDescription(this)" onclick="showDescription(this)" onmouseout="hideDescription(this)">
+                        <figcaption>2021 <br> CODA </figcaption>
+                        <div class="desc show"><img src="CODA(2021_film).jpg" alt="Image of CODA (2021 film)" class="img">
+                        <p>CODA is a 2021 coming-of-age comedy-drama film written and directed by Sian Heder. It is an English-language remake of the 2014 French-Belgian film La Famille Bélier, and it stars Emilia Jones as Ruby Rossi, the titular child of deaf adults (CODA) and the only hearing member of her family, a teenager who tries to help her family's struggling fishing business while pursuing her own singing dreams.
+                        <br><br>Deaf actors play the deaf characters in the film, who communicate using American Sign Language with Jones. In supporting roles, Eugenio Derbez, Troy Kotsur, Ferdia Walsh-Peelo, Daniel Durant, and Marlee Matlin appear. It was shot on location in Gloucester, Massachusetts, in the United States, as part of an international co-production between the United States and France, with Philippe Rousselet of La Famille Bélier reprising his role as producer.</p></div>
+                    </figure>
+                </div>
+
+                <div class="column">
+                    <figure class="caption">
+                        <img src="Nomadland(2020_film).jpg" alt="Image of Nomadland (2020 film)" class="img" onmouseover="showDescription(this)" onclick="showDescription(this)" onmouseout="hideDescription(this)">
+                        <figcaption>2020 <br> Nomadland </figcaption>
+                        <div class="desc show"><img src="Nomadland(2020_film).jpg" alt="Image of Nomadland (2020 film)" class="img">
+                        <p>Chloé Zhao's Nomadland is a 2020 American drama film that she wrote, produced, edited, and directed. It stars Frances McDormand as a widow who leaves to travel around the United States in her van as a nomad, based on Jessica Bruder's 2017 nonfiction book Nomadland: Surviving America in the Twenty-First Century. David Strathairn appears in a supporting role as well. Linda May, Swankie, and Bob Wells are among the real-life nomads who appear as fictionalized versions of themselves.
+                        </p></div>
+                    </figure>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="column">
+                    <figure class="caption">
+                        <img src="Parasite(2019_film).jpg" alt="Image of Parasite (2019 film)" class="img" onmouseover="showDescription(this)" onclick="showDescription(this)" onmouseout="hideDescription(this)">
+                        <figcaption>2019 <br> Parasite </figcaption>
+                        <div class="desc show"><img src="Parasite(2019_film).jpg" alt="Image of Parasite (2019 film)" class="img">
+                        <p>Parasite (Korean: 기생충; Hanja: 寄生蟲; RR: Gisaengchung) is a 2019 South Korean black comedy thriller film directed by Bong Joon-ho, who co-wrote the screenplay with Han Jin-won and co-produced. The film, starring Song Kang-ho, Lee Sun-kyun, Cho Yeo-jeong, Choi Woo-shik, Park So-dam, Jang Hye-jin, Park Myung-hoon and Lee Jung-eun, follows a poor family who scheme to become employed by a wealthy family, infiltrating their household by posing as unrelated, highly qualified individuals.
+                        </p></div>
+                    </figure>
+                </div>
+
+                <div class="column">
+                    <figure class="caption">
+                        <img src="Green_Book(2018_film).jpg" alt="Image of Green Book (2018 film)" class="img" onmouseover="showDescription(this)" onclick="showDescription(this)" onmouseout="hideDescription(this)">
+                        <figcaption>2018 <br> Green Book </figcaption>
+                        <div class="desc show"><img src="Green_Book(2018_film).jpg" alt="Image of Green Book (2018 film)" class="img">
+                        <p>Green Book is a biographical comedy-drama film directed by Peter Farrelly that was released in 2018. The film, starring Viggo Mortensen and Mahershala Ali, is based on the true story of African American pianist Don Shirley and Italian American bouncer and later actor Frank "Tony Lip" Vallelonga, who served as Shirley's driver and bodyguard during a 1962 tour of the Deep South. The film is based on interviews with Lip and Shirley, as well as letters Lip wrote to his then-wife, and was written by Farrelly, Lip's son Nick Vallelonga, and Brian Hayes Currie. It is named after The Negro Motorist Green Book, a travel guide for African Americans founded in 1936 by Victor Hugo Green and published until 1966.
+                        </p></div>
+                    </figure>
+                </div>
+                <div class="column">
+                    <figure class="caption">
+                        <img src="The_Shape_of_Water(2017_film).jpg" alt="Image of Shape of Water (2017 film)" class="img" onmouseover="showDescription(this)" onclick="showDescription(this)" onmouseout="hideDescription(this)">
+                        <figcaption >2017 <br> Shape of Water </figcaption>
+                        <div class="desc show"><img src="The_Shape_of_Water(2017_film).jpg" alt="Image of Shape of Water (2017 film)" class="img">
+                        <p>Guillermo del Toro's 2017 romantic fantasy film The Shape of Water was written and directed by del Toro and Vanessa Taylor. Sally Hawkins, Michael Shannon, Richard Jenkins, Doug Jones, Michael Stuhlbarg, and Octavia Spencer star in the film. The film is set in 1962 Baltimore, Maryland, and follows a mute custodian at a high-security government laboratory who falls in love with a captured humanoid amphibian creature and decides to help him escape the hands of an evil colonel. From August to November 2016, filming took place on location in Ontario, Canada.
+                        </p></div>
+                    </figure>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="column">
+                    <figure class="caption">
+                        <img src="Moonlight(2016_film).jpg" alt="Image of Moonlight(2016 film)" class="img" onmouseover="showDescription(this)" onclick="showDescription(this)" onmouseout="hideDescription(this)">
+                        <figcaption>2016 <br> Moonlight </figcaption>
+                        <div class="desc show"><img src="Moonlight(2016_film).jpg" alt="Image of Moonlight(2016 film)" class="img">
+                            <p>Moonlight is a 2016 American coming-of-age drama film directed by Barry Jenkins and based on Tarell Alvin McCraney's unpublished semi-autobiographical play In Moonlight, Black Boys Look Blue. Trevante Rhodes, André Holland, Janelle Monáe, Ashton Sanders, Jharrel Jerome, Naomie Harris, and Mahershala Ali star in the film.
+                                The film follows the main character through three stages of his life: childhood, adolescence, and early adulthood. It delves into his struggles with sexuality and identity, as well as the physical and emotional abuse he endured as a child.Moonlight, which began filming in Miami, Florida in 2015, premiered on September 2, 2016 at the Telluride Film Festival. A24 released it in the United States on October 21, 2016, to universal acclaim and grossing over $65 million worldwide.
+                            </p></div>
+                    </figure>
+                </div>
+
+                <div class="column">
+                    <figure class="caption">
+                        <img src="Spotlight(2015_film).jpg" alt="Image of Spotlight (2015 film)" class="img" onmouseover="showDescription(this)" onclick="showDescription(this)" onmouseout="hideDescription(this)">
+                        <figcaption>2015 <br> Spotlight </figcaption>
+                        <div class="desc show"><img src="Spotlight(2015_film).jpg" alt="Image of Spotlight (2015 film)" class="img">
+                            <p>Spotlight is a 2015 American biographical drama film written by McCarthy and directed by Tom McCarthy. The film follows The Boston Globe's "Spotlight" team, the country's oldest continuously operating investigative journalism unit, as they investigate cases of widespread and systemic child sex abuse in the Boston area by numerous Catholic priests. Although the plot is unique, it is loosely based on a series of Spotlight stories that earned The Globe the 2003 Pulitzer Prize for Public Service. [7] The film stars Mark Ruffalo, Michael Keaton, Rachel McAdams, John Slattery, and Stanley Tucci, as well as Brian d'Arcy James, Liev Schreiber, and Billy Crudup in supporting roles.
+                            </p></div>
+                    </figure>
+                </div>
+
+                <div class="column">
+                    <figure class="caption">
+                        <img src="Birdman(2014_film).jpg" alt="Image of Birdman (2014 film)" class="img" onmouseover="showDescription(this)" onclick="showDescription(this)" onmouseout="hideDescription(this)">
+                        <figcaption>2014 <br> Birdman </figcaption>
+                        <div class="desc show"><img src="Birdman(2014_film).jpg" alt="Image of Birdman (2014 film)" class="img">
+                            <p>Birdman, also known as (The Unexpected Virtue of Ignorance), is a 2014 American black comedy-drama film directed by Alejandro González Iárritu. Iárritu, Nicolás Giacobone, Alexander Dinelaris Jr., and Armando Bó wrote it. The film stars Michael Keaton as Riggan Thomson, a faded Hollywood actor best known for his role as the superhero "Birdman," who is attempting to mount a Broadway adaptation of Raymond Carver's short story "What We Talk About When We Talk About Love." The film also stars Zach Galifianakis, Edward Norton, Andrea Riseborough, Amy Ryan, Emma Stone, and Naomi Watts in supporting roles.
+                            </p></div>
+                    </figure>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="column" style="margin-bottom: 200px;">
+                    <figure class="caption">
+                        <img src="12_Years_a_Slave(2013_film).jpg" alt="Image of  12 Years a Slave (2013 film)" class="img" onmouseover="showDescription(this)" onclick="showDescription(this)" onmouseout="hideDescription(this)">
+                        <figcaption>2013 <br> 12 Years a Slave </figcaption>
+                        <div class="desc show" style="margin-left: 30%;"><img src="12_Years_a_Slave(2013_film).jpg" alt="Image of 12 Years a Slave (2013 film)" class="img">
+                            <p>12 Years a Slave is a 2013 biographical drama film directed by Steve McQueen based on the 1853 slave memoir Twelve Years a Slave by Solomon Northup, an African American man kidnapped in Washington, D.C. by two conmen in 1841 and sold into slavery. He was imprisoned for 12 years on Louisiana plantations before being released. Sue Eakin and Joseph Logsdon co-edited the first scholarly edition of David Wilson's version of Northup's story in 1968.
+                            </p></div>
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>//Script for change font size
+        let buttons = document.querySelector('.buttons');
+        let btn = buttons.querySelectorAll('.btn');
+        for(var i = 0; i<btn.length; i++){
+            btn[i].addEventListener('click', function(){
+                let Current = document.getElementsByClassName('active');
+                Current[0].className = Current[0].className.replace("active", "");
+                this.className += " active";
+            })
+        }
+    </script>
+
+    <script>//Script for show the description box
+        function showDescription(img) {
+            var desc = img.nextElementSibling.nextElementSibling;
+            
+            if (desc.style.display === 'none') {
+                desc.style.display = 'flex';
+            } else {
+            desc.style.display = 'none';
+            }
+        }
+        
+        function hideDescription(img) {
+        var desc = img.nextElementSibling.nextElementSibling;
+        
+        if (desc.style.display === 'flex') {
+            desc.style.display = 'none';
+            }
+        }
+    </script>
+
+    <script>
+        function changeColorScheme(select) {
+            var value = select.value;
+        
+            if (value === "default") {
+                document.body.style.backgroundColor = "";
+                document.body.style.color = "white";
+                document.body.style.backgroundImage = "url('background.jpeg')";
+                document.body.style.backgroundSize = "cover";
+                document.body.style.backgroundAttachment = "fixed";
+                document.getElementsByClassName("topbar").style.backgroundColor = "";
+            } else if (value === "dark") {
+                document.body.style.backgroundColor = "black";
+                document.body.style.color = "white";
+                document.body.style.backgroundImage = "";
+                document.body.style.backgroundSize = "";
+                document.body.style.backgroundAttachment = "";
+            } else if (value === "light") {
+                document.body.style.backgroundColor = "white";
+                document.querySelectorAll(".caption").forEach(element => {element.style.color = "black"});
+                document.getElementById("titles").style.color = "black";
+                document.body.style.backgroundImage = "";
+                document.body.style.backgroundSize = "";
+                document.body.style.backgroundAttachment = "";
+                document.querySelector(".topbar").style.backgroundColor = "gray";
+                console.log("grey");
+            } else if (value === "blue") {
+                document.body.style.backgroundColor = "rgb(93, 93, 213)";
+                document.body.style.color = "white";
+                document.body.style.backgroundImage = "";
+                document.body.style.backgroundSize = "";
+                document.body.style.backgroundAttachment = "";
+            }
+        }
+        window.onload = function() {
+        document.getElementById('colorScheme').value = 'default';
+        changeColorScheme(document.getElementById('colorScheme'));
+    }
+    </script>
+    <footer>
+        <div class="pagebottom">
+            <p class="sitename">MovieFlix © 2023</p>
+
+            <div class="navfooter">
+                <a href="main.html">Home</a>
+            <a href="link2">Shop</a>
+            <a href="">Comments</a>
+            <a href="link4">Quiz</a>
+            <a href="../CW/SVG.html">Site Map</a>
+            <a href="../CW/Gallery.html">Gallery</a>
+            <a href="link7">Student Details</a>
+            </div>
+            
+
+        </div>
+        <div class="studentinfo">
+            <div class="infotext">
+            H.M.V.T.L. Somarathne<br>
+            IIT ID: 20221495 <br>
+            UOW ID: w1956337 <br>
+            <a href="Editor's_Page.html" target="_blank"> Click here for Page editor </a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

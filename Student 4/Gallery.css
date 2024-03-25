@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /* background-image: url("background.jpeg");
+    background-size: cover;
+    background-attachment: fixed; */
+    background-color: black;
+    color: white;
+}
+
+select{
+    background-color: black;
+    color: white;
+}
+
+option[value="dark"] {
+    background-color: black;
+    color: white;
+  }
+  
+  option[value="light"] {
+    background-color: rgb(133, 130, 130);
+    color: black;
+  }
+  
+  option[value="blue"] {
+    background-color: rgb(93, 93, 213);
+    color: white;
+  }
+
+  .topbar{
+    height: 50px;
+    
+    
+    
+}
+.topbartext{
+    margin-left: 10px;
+    margin-top: 8px;
+    color: #e20000;
+    font-weight:bold;
+    font-size: 30px;
+    float: left;
+    font-family: 'Poppins';
+}
+.ICONimg{
+    height: 45px;
+    width: 50px;
+    float: left;
+    
+}
+
+.navbar {
+    overflow:hidden;
+    
+  }
+  
+  
+.navbar a {
+    
+    float: left;
+    margin-left: 25px; 
+    margin-right: 25px;
+    color: aliceblue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    border-bottom: 16px solid transparent;
+    
+}
+  
+  
+.navbar a:hover {
+    border-bottom: 2px solid rgb(253, 0, 0);
+    opacity:0.8; 
+    
+}
+  
+  
+.navbar a.active {
+    
+    border-bottom: 3px double rgb(255, 0, 0);
+}
+
+  .h1{
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+.row{
+    margin-top: 50px;
+    display: flex;
+}
+
+  .column{
+    margin: 0 auto 0 auto;
+    width:100%;
+  }
+
+  .img{
+    width: 210px;
+    height: 316px;
+    border-radius: 3%;
+    cursor: pointer;
+  }
+
+  .img:hover{
+    transition: 1s;
+    transform: translateY(-10px);
+    opacity: 80%;
+  }
+
+  .caption{
+    color: white;
+    text-align: center;
+    padding: 5px 0 5px 0;
+  }
+
+  .container{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 1240px;
+  }
+
+  .container .buttons{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin: 10px 20px 10px 0;
+    padding-right: 20px;
+  }
+
+.container .buttons .btn{
+    padding: 0 10px;
+    display: inline-flex;
+    background: #545353;
+    color: #fff;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+
+  .container .buttons .btn .active{
+    background: #797474;
+  }
+
+  .container .buttons .btn:nth-child(2){
+    font-size: 1.5em;
+  }
+
+  .container .buttons .btn:nth-child(3){
+    font-size: 2em;
+  }
+  
+  .container .content{
+    font-size: 1em;
+  }
+
+  .options{
+    float: right;
+    border-radius: 10%;
+    color:red;
+    margin: 10px 0 10px 0;
+    padding-right: 20px;
+  }
+
+  .desc {
+    position: relative;
+    background-color: rgba(230, 24, 24, 0.5);
+    border-radius: 3%;
+    border-color:yellow;
+    border-style: groove;
+    color: #f1f1f1;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 5px 0 10px;
+    width: 500px;
+  }
+
+  .show {
+    display: none;
+  }
+
+  .desc p{
+    padding: 5px;
+    text-align:justify;
+  }
+  
+  .pagebottom{
+    height: 150px;
+    border-top: 2px solid red;
+    background-color:rgb(0, 0, 0);
+    
+    
+    
+    
+ }
+ .sitename{
+    color: aliceblue;
+    font-weight: bolder;
+    padding-top: 10px;
+    text-align: center;
+
+    font-size: 17px;
+ }
+
+ .navfooter a{
+    float: left;
+    margin-left: 25px; 
+    margin-right: 25px;
+    color: aliceblue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: 16px solid transparent;
+    transition: opacity 0.4s;
+    
+ }
+ .navfooter a:hover{
+    color: aliceblue;
+    opacity:0.7;  
+ }
+ .studentinfo{
+    height: 180px;
+    background-color:rgb(0, 0, 0);
+    
+ }
+ .infotext{
+    
+    line-height: 40px;
+    letter-spacing:2px;
+    color: aliceblue;
+    font-size: 20px;
+    height: 150px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+ }.infotext a{
+    color: #e90e0e;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Poppins';
+    font-weight: bolder;
+ }.infotext a:hover{
+    opacity: 0.8;
+    
+ }
+  
+  
